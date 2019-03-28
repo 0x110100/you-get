@@ -10,7 +10,7 @@ from you_get.extractors import (
 )
 
 
-class YouGetTests(unittest.TestCase):
+class TestYouGet(unittest.TestCase):
     def test_imgur(self):
         imgur.download('http://imgur.com/WVLk5nD', info_only=True)
         imgur.download('http://imgur.com/gallery/WVLk5nD', info_only=True)

@@ -29,7 +29,6 @@ build:
 
 sdist:
 	$(SETUP) sdist
-
 bdist:
 	$(SETUP) bdist
 
